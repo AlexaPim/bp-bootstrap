@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    
+    <style>
+        .tm-social {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+
+    <title>Alexa com bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="assets/img/logo1.jpg" width="60" height="60" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-dark" href="#">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Redes Sociais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">LinkedIn</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">GitHub</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!--/Navbar-->
+
+    <!--Carousel-->
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./assets/img/blackpink1.jpg" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/img/blackpink2.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/img/blackpink3.jpg" alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!--/Carousel-->
+    <!--Jumbotron-->
+    <div class="jumbotron"
+        style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwdRzIMA3XVWFAbuMDqhTnGBTcsyGfCnP1aZ_Nv0dqaHnhScaANh7cslxe0ViDku_0oQM&usqp=CAU); background-size: 100%;">
+
+        <!--Cards-->
+        <div class="container">
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvHo_pSdLrK0PUh4XsmMmVfJf_7R9mmV-mzw&usqp=CAU"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Quem são</h5>
+                        <p class="card-text">Blackpink é um grupo feminino sul-coreano formado pela YG Entertainment em
+                            2016. Ele é composto por quatro integrantes: Jisoo, Jennie, Rosé e Lisa.</p>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Se você chorar lágrimas de sangue pelos dois olhos, que pena
+                            Quem vai estar? Você mesmo
+                            O que eu faço? Eu não aguento ser tão fraca
+                            Enquanto me forço a cobrir minhas lágrimas
+                            Eu preciso dar um fim a esse amor</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Canção <cite title="Título da fonte">Kill This Love</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBxRTqN3YMw2G-TvPq7DDqtf48R6T92mBDzw&usqp=CAU"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Importância</h5>
+                        <p class="card-text">Em setembro foram nomeadas pela ONU, como um das quatro novas
+                            “Defensores dos Objetivos de Desenvolvimento Sustentável”. Com isso, o grupo K-Pop ajudará a
+                            organização na conscientização para causas globais e construir as bases para um planeta
+                            próspero até 2030.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+                <div class="card bg-white text-dark text-center p-3">
+                    <blockquote class="blockquote mb-0">
+                        <p>"É uma honra participar do caminho em direção ao mundo melhor. Queremos promover a importância
+                            das ODS para o mundo com o BLINK e contribuir para resolver os problemas”</p>
+                        <footer class="blockquote-footer">
+                            <small>
+                                Blackpink <cite title="Título da fonte">divulgaram em nota</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+
+                <div class="card">
+                    <img class="card-img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb_klWO3K5tPa5snnwKQlZYYc-xGf-jROeGA&usqp=CAU"
+                        alt="Imagem do card">
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Single</h5>
+                        <p class="card-text">O single "How You Like That" foi muito divulgado nas mídias sociais antes
+                            de seu lançamento digital em 26 de junho. A canção estreou na 12ª posição na Gaon
+                            Digital Chart com apenas um dia e 16 horas de rastreamento e alcançou a posição número um na
+                            nas tabelas digital, download e streaming da Gaon em sua segunda semana. "How You Like
+                            That" tornou-se a quinta música de Blackpink nas tabelas da Billboard Hot 100 (chegando ao
+                            número 33) e seu videoclipe quebrou cinco recordes mundiais do Guinness World Records.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+            </div>
+            <!--/Cards-->
+
+            <!--Texto e video-->
+
+            <div class="row mt-5 mb-5">
+                <div class="col-md-6 ">
+                    <h3>How You Like That</h3>
+                    <p class="col-md-6 text-white bg-dark">
+                        Iluminando o céu novamente nesse lugar escuro<br>
+                        Olhando em seus olhos, te dou um beijo de despedida<br>
+                        Ria o quanto quiser enquanto pode<br>
+                        Agora é a sua vez, um, dois, três<br>
+
+                        Ha, o que você acha disso?<br>
+                        Você vai gostar disso
+                    </p>
+                    <p>
+
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ioNng23DkIM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!--/Texto de video-->
+
+
+            <!--Form-->
+
+            <div class="row md-5 bg-dark">
+                <div class="col-md-12">
+                    <h4 class="text-center text-white">Entre em contato</h4>
+                </div>
+
+
+                <div class="col-md-12">
+
+                    <form>
+                        <div class="form-group text-white">
+                            <label for="exampleFormControlInput1">Nome completo</label>
+                            <input type="nome" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Maria Silva">
+                        </div>
+
+                        <div class="form-group text-white">
+                            <label for="exampleFormControlInput1 ">Endereço de email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nome@exemplo.com">
+                        </div>
+
+
+                        <div class="form-group text-white">
+                            <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group d-flex justify-content-end">
+                            <button class="btn btn-danger">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <!--/Form-->
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+    <!--/Jumbotron-->
+
+
+    <div class="container">
+        <footer>
+            <div class="row mb-0">
+                <div class="col-md-12 d-flex justify-content-center">
+
+                    <a href="https://github.com/AlexaPim" target="_blank" class="p-3">
+                        <img class="tm-social" src="./assets/img/github.png" alt="Logo do Github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/alexssandra-pimentel/" target="_blank" class="p-3">
+                        <img class="tm-social" src="./assets/img/linkedin.png" alt="Logo do Linkedin">
+                    </a>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">Todos os direitos reservados para: Alexa Pim | 2021 &copy; </p>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
